@@ -24,8 +24,6 @@ class UnderwaterRaceApp extends StatelessWidget {
   );
 }
 
-// ─── Models ──────────────────────────────────────────────────────────────────
-
 class ScoreRecord {
   final int score, gems;
   final String date;
@@ -53,8 +51,6 @@ class AppState {
 }
 
 final appState = AppState();
-
-// ─── Home Screen ──────────────────────────────────────────────────────────────
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -247,8 +243,6 @@ class _NavBtn extends StatelessWidget {
   );
 }
 
-// ─── Records Screen ───────────────────────────────────────────────────────────
-
 class RecordsScreen extends StatelessWidget {
   const RecordsScreen({super.key});
 
@@ -393,8 +387,6 @@ class RecordsScreen extends StatelessWidget {
     );
   }
 }
-
-// ─── Settings Screen ──────────────────────────────────────────────────────────
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -646,8 +638,6 @@ class _ToggleCard extends StatelessWidget {
     ),
   );
 }
-
-// ─── Game Screen ──────────────────────────────────────────────────────────────
 
 class Bubble {
   double x, y, radius, speed, opacity;
